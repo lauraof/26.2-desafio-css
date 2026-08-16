@@ -2,10 +2,9 @@
 
 NOME DOS INTEGRANTES:
 
-- DIGITE O NOME DO PRIMEIRO INTEGRANTE
-- DIGITE O NOME DO SEGUNDO INTEGRANTE
-- DIGITE O NOME DO TERCEIRO INTEGRANTE
-- Link do GitHub Pages: COLOQUE O LINK AQUI 
+- Carlos Neto
+- Laura de Oliveira
+- Link do GitHub Pages: [https://lauraof.github.io/26.2-desafio-css/]
 
 ## Desafio CSS
 

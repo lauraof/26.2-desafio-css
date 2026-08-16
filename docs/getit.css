@@ -29,7 +29,7 @@ body {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -77,4 +77,32 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+} 
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.card-content {
+  color: #4c4c4c;
+}
+
+.appbar {
+  display: flex;
+  flex-direction: flex-start;
+  background-color: #f7d736;
+  padding: 1%;
+}
+
+.logo {
+  width: 10%;
+}
+
+.subtitle {
+  align-content: center;
+}
