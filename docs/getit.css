@@ -84,19 +84,10 @@ body {
 } 
 
 
-.roboto-minha {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .card {
@@ -104,17 +95,25 @@ body {
     width: 12%;
     border-radius: 10px;
     padding: 0.8%;
-    margin: 0.3%;
-    box-shadow: 0 6px 7px rgba(0, 0, 0, 0.3);
+    margin: 0.4rem;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.4);
+    min-height: 5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-title {
+  justify-content: flex-start;
   font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .card-content {
   color: #4c4c4c;
   margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
 }
 
 .card-color-1 {
@@ -138,15 +137,15 @@ body {
 }
 
 .card-rotation-1 {
-  rotate:1deg;
+  rotate:-5deg;
 }
 
 .card-rotation-2 {
-  rotate:-1deg;
+  rotate:-4deg;
 }
 
 .card-rotation-3 {
-  rotate:3deg;
+  rotate:-3deg;
 }
 
 .card-rotation-4 {
@@ -154,31 +153,31 @@ body {
 }
 
 .card-rotation-5 {
-  rotate:2deg;
+  rotate:-1deg;
 }
 
 .card-rotation-6 {
-  rotate:-1.5deg;
-}
-
-.card-rotation-7 {
   rotate:0deg;
 }
 
+.card-rotation-7 {
+  rotate:1deg;
+}
+
 .card-rotation-8 {
-  rotate:1.5deg;
+  rotate:2deg;
 }
 
 .card-rotation-9 {
-  rotate:-0.5deg;
+  rotate:3deg;
 }
 
 .card-rotation-10 {
-  rotate:0.5deg;
+  rotate:4deg;
 }
 
 .card-rotation-11 {
-  rotate:1.2deg;
+  rotate:5deg;
 }
 
 .appbar {
@@ -186,11 +185,11 @@ body {
   flex-direction: flex-start;
   background-color: #f7d736;
   padding: 1%;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);
 }
 
 .logo {
-  width: 10%;
+  width: 5rem;
 }
 
 .subtitle {
@@ -206,24 +205,33 @@ body {
 .form-card {
   display: flex;
   flex-direction: column;
-  box-shadow: 0px 1px 4px rgba(0,0,0,0.6);
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+  
   margin: 40px;
   border-color: white;
   border-radius: 3px;
   justify-content: space-evenly;
   align-self: center;
   width: 40%;
-  padding: 0.1%;
+  padding: 0rem;
 }
 
 .form-card-title {
   font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
   border: none;
   outline: none;
+  padding: 0.5rem;
+  border-radius: 3px;
 }
 
 .autoresize {
   font-family: 'Roboto', sans-serif;
   border: none;
   outline: none;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.5rem;
+  padding-bottom: 0;
 }
